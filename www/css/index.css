@@ -1,0 +1,136 @@
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    
+    background:url(../img/bg.jpg) no-repeat;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+.day-frm {
+    background: transparent;
+    display: inline;
+    border: 2px solid #000;
+    width: 82px;
+    height: 82px;
+    margin: 5px 5px;
+    float: left;
+}
+
+.big {
+    width: 178px;
+    height: 178px;
+}
+
+.day p {
+    color: #fff;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 22px;
+}
+
+.big .day p {
+    padding: 64px;
+}
+
+.opening {
+    background-color: #999;
+    outline: 1px solid #000;
+}
+
+.day-frm.open {
+    background-image: url(../img/question.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 32px 32px;
+}
+
+#day1.open {
+    background: url(../img/gnomes.png);
+    background-size: 82px 82px;
+}
+
+#day3.open {
+    background: url(../img/present.png);
+    background-size: 82px 82px;
+}
+
+#day5.open {
+    background: url(../img/candies.png);
+    background-size: 82px 82px;
+}
+
+#day6.open {
+    background: url(../img/flag.png);
+    background-size: 82px 82px;
+}
+
+#day8.open {
+    background: url(../img/bells.png);
+    background-size: 82px 82px;
+}
+
+#day10.open {
+    background: url(../img/kane.png);
+    background-size: 82px 82px;
+}
+
+#day11.open {
+    background: url(../img/candles.png);
+    background-size: 82px 82px;
+}
+
+#day12.open {
+    background: url(../img/decoration.png);
+    background-size: 82px 82px;
+}
+
+#day14.open {
+    background: url(../img/ginger.png);
+    background-size: 82px 82px;
+}
+
+#day16.open {
+    background: url(../img/decoration2.png);
+    background-size: 82px 82px;
+}
+
+#day18.open {
+    background: url(../img/sock.png);
+    background-size: 82px 82px;
+}
+
+#day19.open {
+    background: url(../img/hat.png);
+    background-size: 82px 82px;
+}
+
+#day21.open {
+    background: url(../img/lizard.png);
+    background-size: 82px 82px;
+}
+
+#day22.open {
+    background: url(../img/chocolates.png);
+    background-size: 82px 82px;
+}
+
+#day24.open {
+    background: url(../img/mistletoe.png);
+    background-size: 82px 82px;
+}
+
+#day25.open {
+    background: url(../img/presents.png) no-repeat;
+    background-position: center;
+}
+
